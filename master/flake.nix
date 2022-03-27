@@ -11,6 +11,7 @@
   inputs.src-highlight-master.ref   = "refs/heads/master";
   inputs.src-highlight-master.owner = "RaimundHuebel";
   inputs.src-highlight-master.repo  = "nimhighlight";
+  inputs.src-highlight-master.dir   = "";
   inputs.src-highlight-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:

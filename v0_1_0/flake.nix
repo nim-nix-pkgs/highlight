@@ -11,7 +11,6 @@
   inputs.src-highlight-v0_1_0.ref   = "refs/tags/v0.1.0";
   inputs.src-highlight-v0_1_0.owner = "RaimundHuebel";
   inputs.src-highlight-v0_1_0.repo  = "nimhighlight";
-  inputs.src-highlight-v0_1_0.dir   = "";
   inputs.src-highlight-v0_1_0.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
